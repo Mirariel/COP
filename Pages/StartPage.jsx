@@ -6,7 +6,6 @@ export default function StartPage({ onStart }) {
             <h1>Назва супер гри</h1>
             <p>Правила гри: збери якомога більше балів...</p>
 
-            {/* Використовуємо наш універсальний компонент */}
             <Button onClick={onStart} variant="primary">
                 Почати гру
             </Button>
